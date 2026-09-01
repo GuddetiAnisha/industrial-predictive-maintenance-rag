@@ -1,0 +1,4 @@
+# Optional semantic retrieval. The application falls back to TF-IDF without these.
+-r requirements.txt
+sentence-transformers>=3.0,<4
+faiss-cpu>=1.8,<2
