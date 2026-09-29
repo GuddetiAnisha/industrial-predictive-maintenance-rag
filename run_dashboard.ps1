@@ -1,2 +1,2 @@
 Set-Location $PSScriptRoot
-& ".\.venv\Scripts\python.exe" -m streamlit run dashboard\dashboard.py
+& ".\.venv\Scripts\python.exe" -m streamlit run dashboard.py
