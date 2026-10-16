@@ -164,18 +164,6 @@ The most important limitations are:
 
 My next steps would be to compare richer pressure, temperature and vibration features; test generalisation to new operating conditions; evaluate probability calibration; and investigate a dedicated RUL model using run-to-failure datasets such as NASA bearing or engine-degradation data.
 
-## Connection to Remaining Useful Life research
-
-This project is a foundation for RUL research rather than a completed RUL solution. It provides experience with the **sensor-information side** of predictive maintenance.
-
-A future hybrid RUL system could combine:
-
-1. **Wear information:** age, operating hours, load history or accumulated usage.
-2. **Sensor information:** measured changes that reflect the current component condition.
-3. **Survival analysis:** a probability model for component lifetime.
-4. **Uncertainty quantification:** intervals showing how reliable remaining-life estimates may be.
-
-That is the connection between my condition-monitoring project and research on combining survival-based aging models with data-driven RUL prognostics.
 
 ## Data sources
 
@@ -189,4 +177,4 @@ See the main [README](README.md) for installation, download scripts, environment
 
 ---
 
-*This is an educational and research portfolio project. Predictions and generated maintenance information should not be used as standalone safety-critical industrial decisions.*
+
